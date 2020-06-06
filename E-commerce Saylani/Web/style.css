@@ -1,0 +1,293 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .main {
+        background-image: url(./productimage/ecommerce.jpg);
+        min-height: 100vh;
+        min-width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .fore_nav {
+        background-color: #A23F25;
+        font-size: 15px;
+    }
+    
+    .navbar-whitenavbar-white a {
+        color: white!important
+    }
+    
+    .navbar-nav a:hover {
+        border-bottom: 2px solid #A23F25;
+    }
+    
+    .navbar-brand img {
+        height: 50px;
+    }
+    
+    .navbar-dark {
+        font-size: 20px;
+        background-color: black;
+        position: relative;
+        top: 0;
+    }
+    
+    .home_nav {
+        font-size: 20px;
+        position: relative;
+        top: 0;
+    }
+    
+    i:hover {
+        cursor: pointer;
+    }
+    
+    .hello {
+        text-align: center;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+    }
+    
+    .textCategory {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+    }
+    
+    .categoryImages {
+        border: 2px solid #A23F25;
+        height: 300px;
+        width: 300px;
+        margin: 3px;
+    }
+    
+    .categoryAllText:hover {
+        font-size: 40px;
+        transform: Y(1.5);
+        transition: 0.2s;
+        cursor: pointer;
+        color: #A23F25;
+    }
+    /* Media Querries For HEader */
+    
+    @media (max-width:991px) {
+        .categoryImages {
+            border: 2px solid #A23F25;
+            height: 250px;
+            width: 250px;
+            margin: 3px;
+        }
+    }
+    
+    @media (max-width:768px) {
+        .categoryImages {
+            border: 2px solid #A23F25;
+            height: 200px;
+            width: 200px;
+            margin: 3px;
+        }
+        .front_header {
+            font-size: 60px;
+            font-family: 'Luckiest Guy';
+            color: #fff;
+        }
+    }
+    
+    @media (max-width:500px) {
+        .categoryImages {
+            border: 2px solid #A23F25;
+            height: 150px;
+            width: 150px;
+            margin: 3px;
+        }
+        .categoryAllText:hover {
+            font-size: 30px;
+            transform: Y(1.5);
+            transition: 0.2s;
+            cursor: pointer;
+            color: #A23F25;
+        }
+    }
+    
+    @media (max-width:320px) {
+        .categoryImages {
+            border: 2px solid #A23F25;
+            height: 130px;
+            width: 130px;
+            margin: 3px;
+        }
+        .categoryAllText:hover {
+            font-size: 20px;
+            transform: Y(1.5);
+            transition: 0.2s;
+            cursor: pointer;
+            color: #A23F25;
+        }
+    }
+    /* Male Category */
+    
+    .opacity {
+        opacity: 0.8;
+        width: auto;
+    }
+    
+    .card-img-top {
+        height: 300px;
+    }
+    
+    .maleItems {
+        width: 75%;
+        border-radius: 25px;
+        border: 2px solid #A23F25;
+        padding: 10px;
+        outline: none;
+    }
+    
+    .btn-search {
+        background-color: #A23F25;
+        color: white;
+        outline: none!important;
+    }
+    
+    .navbar-black a {
+        font-size: 20px;
+        color: black!important;
+    }
+    
+    .categoryAllText a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .fa-bars {
+        color: #A23F25;
+    }
+    
+    .navIcons {
+        height: 25px;
+    }
+    
+    .ctegoryBanner {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .footer_list a {
+        color: white !important;
+        list-style-type: none!important;
+        text-decoration: none !important;
+    }
+    
+    .footer_list li {
+        list-style-type: none!important;
+    }
+    
+    .footer_list li a:hover {
+        color: #A23F25;
+    }
+    
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+    
+    .allCategoryMaleBody {
+        width: 100%;
+        min-height: 100vh;
+    }
+    /* /* NNEW/ */
+    
+    .card_row {
+        margin: 0 auto! important;
+    }
+    
+    .serviceIcon {
+        height: 100px;
+    }
+    
+    .serviceDiv {
+        box-shadow: 4px -1px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    /* ss */
+    /* carousel */
+    
+    .testoIcon {
+        height: 200px;
+        width: 200px;
+        border-radius: 25px;
+    }
+    
+    .front_header {
+        font-size: 80px;
+        font-family: 'Luckiest Guy';
+        color: #fff;
+    }
+    
+    @media (max-width:558px) {
+        .front_header {
+            font-size: 50px;
+            font-family: 'Luckiest Guy';
+            color: #fff;
+        }
+    }
+    
+    @media (max-width:400px) {
+        .front_header {
+            font-size: 40px;
+            font-family: 'Luckiest Guy';
+            color: #fff;
+        }
+    }
+    /* Carousel Media Querry */
+    
+    @media(max-width:992px) {
+        .carouselImg {
+            width: 100%;
+        }
+    }
+    
+    .abc {
+        margin-left: -50px;
+        margin-top: 10px!important;
+    }
+    
+    .searchbar {
+        margin: 0 auto!important;
+    }
+    
+    .fa-fire-alt {
+        color: orange;
+    }
+    
+    .fa-bolt {
+        color: #F5B013;
+    }
+    
+    .flatIcon {
+        height: 50px;
+    }
+    
+    .maleItems {
+        height: 65px;
+    }
